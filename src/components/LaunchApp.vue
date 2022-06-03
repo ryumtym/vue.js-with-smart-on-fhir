@@ -14,7 +14,8 @@
         client_id: "my_web_app",
         scope: "patient/*.read launch/patient",
         redirectUri: "http://localhost:8080", //vue
-        iss:"https://launch.smarthealthit.org/v/r4/sim/eyJoIjoiMSIsImoiOiIxIn0/fhir" //fhirServer
+        iss:"https://launch.smarthealthit.org/v/r3/sim/eyJoIjoiMSIsImoiOiIxIn0/fhir" //fhirServer
+        // iss:"https://r4.smarthealthit.org"
       });
 
       // FHIR.oauth2.authorize({
