@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.js"></script>
+
+    <!-- TODO: Change server here -->
+    <script>
+            FHIR.oauth2.authorize({
+                client_id: "testid",
+                scope: "launch openid fhirUser patient/*.read",
+                redirectUri: "http://localhost:8080",
+                iss:"http://localhost:3000/4_0_0/"
+            });
+    </script>
+</head>
+<body>Loading...</body>
+</html>
