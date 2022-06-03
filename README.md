@@ -1,4 +1,4 @@
-# fhirapp
+# minimum starter kit
 
 ## Project setup
 ```
