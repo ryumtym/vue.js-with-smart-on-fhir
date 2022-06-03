@@ -17,3 +17,11 @@
     }
   }
 </script>
+
+      // smart launcher test
+      // FHIR.oauth2.authorize({
+      //   client_id: "my_web_app",
+      //   scope: "patient/*.read launch/patient",
+      //   redirectUri: "http://localhost:8080", //vue
+      //   iss:"https://launch.smarthealthit.org/v/r4/sim/eyJoIjoiMSIsImoiOiIxIn0/fhir" //fhirServer
+      // });
