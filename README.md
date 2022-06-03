@@ -7,4 +7,4 @@ yarn serve
 ```
 
 Change values in src/components/LaunchApp.vue according to the environment <br>
-access -> `localhost:8000/launch`
+access -> `http://localhost:8080/launch`
